@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+.main-visual {
+  background-image: url(../img/bath_kouyou.jpg);
+}
+
+#bath {
+  padding: 5%;
+  margin-bottom: 100px;
+}
+
+.bath-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bath-item {
+  width: 49%;
+}
+
+.bath-item img {
+  margin-bottom: 25px;
+}
+
+.bath-title {
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 15px;
+}
+
+.big-text {
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.normal-text {
+  font-size: 0.9rem;
+  line-height: 2;
+  width: 92%;
+  margin-bottom: 20px;
+}
+
+.time {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+#bath-room {
+  margin-bottom: 160px;
+}
+
+.bath-room-img {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.bath-room-img img {
+  width: 100%;
+  height: 400px;
+}
+
+.bath-detail {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#bath-room .bath-detail {
+  width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+  .bath-detail {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .bath-wrap {
+    flex-direction: column;
+  }
+
+  .bath-item {
+    width: 90%;
+    margin: 0 auto 60px;
+  }
+
+  #bath {
+    padding: 0;
+  }
+
+
+  .bath-detail {
+    padding: 0 10px;
+  }
+  #bath-room {
+    width: 90%;
+    margin: 0 auto 80px;
+  }
+
+  .bath-room-img img {
+    height: 300px;
+    width: 100%;
+  }
+
+  .bath-room-img {
+    width: 100%;
+  }
+
+  #bath-room .bath-detail {
+    width: 100%;
+  }
+}

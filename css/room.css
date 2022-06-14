@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+#first .section-img,
+#third .section-img {
+  width: 55%;
+}
+
+#second .section-img {
+  width: 47%;
+}
+
+.section-text {
+  width: 35%;
+  margin-left: 80px;
+  padding-top: 8%;
+}
+
+.section-text .detail {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 40px;
+}
+
+.section-title {
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+#second .section-text {
+  margin-left: 0;
+  width: 31%;
+  padding-top: 10px;
+}
+
+.section-text p {
+  font-size: 15px;
+}
+
+.room-reserve {
+  border: 1px solid #777;
+  background-color: #A7B79B;
+  padding: 15px 60px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 50px;
+}

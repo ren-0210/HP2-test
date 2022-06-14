@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+.main-visual {
+  background-image: url(../img/eat_top.jpg);
+}
+
+#dining1 {
+  margin-bottom: 50px;
+}
+
+.dining-img {
+  width: 100%;
+  margin: 0 auto 50px;
+}
+
+.dining-img img {
+  width: 100%;
+  height: 350px;
+}
+
+.dining-text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  align-items: center;
+}
+
+.left {
+  width: 65%;
+}
+
+.left p {
+  line-height: 2.5;
+  font-size: 1.1rem;
+}
+
+.right {
+  width: 35%;
+  padding-left: 100px;
+}
+
+.dining-title {
+  font-size: 30px;
+  margin-bottom: 40px;
+  padding-left: 30px;
+}
+
+.right dt {
+  color: #888;
+  display: block;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.right dd {
+  color: #333;
+  display: block;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+#other1 {
+  margin-bottom: 100px;
+}
+
+
+
+.other-content {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.other-img {
+  width: 45%;
+  padding-left: 50px;
+}
+
+.other-text {
+  width: 50%;
+}
+
+.text-title {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.other-text p {
+  line-height: 2.2;
+  width: 90%;
+}
+
+.other-text p span {
+  font-size: 13px;
+  color: #555;
+}
+
+#other2 .other-content {
+  flex-direction: row-reverse;
+}
+
+#other2 .other-img {
+  padding-left: 0;
+  padding-right: 50px;
+}
+
+#other2 .other-text {
+  padding-left: 50px;
+}
+
+#other2 {
+  margin-bottom: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .dining-title {
+    padding-left: 0;
+    font-size: 25px;
+  }
+
+  .dining-content {
+    padding-left: 50px;
+}
+
+.left p {
+  font-size: 15px;
+}
+
+.right {
+  padding-left: 80px;
+}
+
+#dining1, #dining2 {
+  margin-bottom: 100px;
+}
+
+.other-content {
+  align-items: center;
+}
+
+.other-img {
+  padding-left: 0;
+}
+
+.text-title {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.other-text p {
+  font-size: 15px;
+}
+
+#other2 .other-img {
+  padding-right: 0;
+}
+
+}
+
+@media screen and (max-width: 540px) {
+  .dining-text {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .dining-content {
+    padding-left: 20px;
+  }
+
+  #other2 .other-text {
+    padding-left: 20px;
+  }
+
+  .left {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .right {
+    padding-left: 0;
+    width: 100%;
+  }
+
+  dl {
+    display: flex;
+  }
+
+  dt {
+    margin-right: 15px;
+  }
+
+  dd {
+    margin-right: 40px;
+  }
+
+  dd:last-child {
+    margin-right: 0;
+  }
+
+  #other1 .other-content,
+  #other2 .other-content {
+    flex-direction: column;
+  }
+
+  .other-img {
+    width: 100%;
+  }
+
+  .other-img img {
+    height: 250px;
+    width: 100%;
+  }
+
+  .other-text {
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 30px;
+  }
+
+}
